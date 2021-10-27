@@ -1,0 +1,52 @@
+﻿.TextBoxDesign {
+    width: 70%;
+    padding: 12px 40px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    /*border: none;
+    border-bottom: 1px solid black;*/
+}
+.LabelDesign {
+    font-size: 18px;
+    color: #009999;
+}
+.LabelDesign2 {
+    font-size: 18px;
+    color: #000;
+    font-weight:200;
+}
+
+.ButtonDesign2 {
+    background-color: #00e6e6;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ButtonDesign3 {
+    background-color: #ff9999;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}

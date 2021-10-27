@@ -1,0 +1,20 @@
+﻿.Panel {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0.01em 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    color: #000 !important;
+    background-color: #fff ;
+}
+Panel_a{
+    text-decoration:none;
+    background-color:red;
+}
+dot {
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
