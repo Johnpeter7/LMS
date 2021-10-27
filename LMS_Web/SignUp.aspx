@@ -27,6 +27,9 @@
 </head>
 <body class="body"  style= "background-image: url(Blue.png);padding:40px;>
     <form id="form1" runat="server">
+       
+       
+       
        <h3>Sign-Up..</h3>
        <%--<div class="container2">
             <div class="w3-panel w3-round w3-card  ">--%>
@@ -70,12 +73,15 @@
                <%--         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*Invalid E-mail" ControlToValidate="txtEmail" ForeColor="red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </div>--%>
                 <div class="form-group">
-                    <asp:Button ID="Button1" runat="server" Text="SignUp" class="btn btn-success" OnClick="Button1_Click"/>
-                     <asp:Button ID="Button2" runat="server" Text="Login" class="btn btn-danger" OnClick="Button2_Click"/>
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
                     </div>
                  
          <%--</div>
         </div>--%>
     </form>
+     
+    
+     
 </body>
 </html>

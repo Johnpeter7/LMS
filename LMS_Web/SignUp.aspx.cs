@@ -16,11 +16,6 @@ namespace LMS_Web
 
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Home.aspx");
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             SignUpViewModal signUpViewModal = new SignUpViewModal();
@@ -32,6 +27,11 @@ namespace LMS_Web
             signUpViewModal.Department = DropDownList1.SelectedItem.Text;
             SignUpBussinessLayer signUpBussinessLayer = new SignUpBussinessLayer();
             signUpBussinessLayer.SignUp(signUpViewModal);
+            Response.Redirect("Home.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
             Response.Redirect("Home.aspx");
         }
     }
